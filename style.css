@@ -1,0 +1,8 @@
+.radio-grid input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+.radio-grid label {
+    display: block;
+    margin-bottom: 10px;
+}

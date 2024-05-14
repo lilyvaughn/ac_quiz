@@ -16,13 +16,13 @@ function nextQuestion(questionNumber, totalQuestions) {
   document.addEventListener("DOMContentLoaded", function() {
     let resultText = "";
     if (totalPoints <= 8) {
-      resultText = "You got A points!";
+      resultText = "Your Aesthetic is CUTE!";
     } else if (totalPoints <= 16) {
-      resultText = "You got B points!";
+      resultText = "Your Aesthetic is NATURAL!";
     } else if (totalPoints <= 24) {
-        resultText = "You got C points!";
+        resultText = "Your Aesthetic is URBAN!";
     } else {
-      resultText = "You got D points!";
+      resultText = "Your Aesthetic is GOTH!";
     }
     document.getElementById("result").textContent = resultText;
   });
