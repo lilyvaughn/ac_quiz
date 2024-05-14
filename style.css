@@ -5,7 +5,7 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #3A5743;
-    background-color: #FAF8E8;
+    background-color: #f7efda;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
     font-weight: 800;
     font-style: normal;
     font-size: 2rem;
-    padding: 10px;
+    padding: 5px;
 }
 
 h2 {
@@ -31,4 +31,9 @@ h2 {
 .radio-grid {
     display: block;
     padding: 10px;
+    border: 2px solid #3A5743;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: #FCF8EF; 
 }
